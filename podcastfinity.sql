@@ -59,4 +59,10 @@ CREATE TABLE recomendaciones (
 );
 
 
+INSERT INTO usuarios VALUES (1, 'juan123', 'juan@email.com', '1234');
+INSERT INTO podcasts VALUES (1, 'Ciencia Hoy', 'Podcast sobre ciencia', 'Dr. López', SYSDATE);
+INSERT INTO tematicas VALUES (1, 'Ciencia');
+INSERT INTO podcast_tematica VALUES (1, 1);
+INSERT INTO valoraciones VALUES (1, 1, 1, 5, 'Muy interesante');
+INSERT INTO recomendaciones VALUES (1, 1, 4.8);
 
